@@ -1,0 +1,6 @@
+[submodule "tgl"]
+	path = tgl
+	url = https://bitbucket.org/tpdavison/tgl
+[submodule "tygra"]
+	path = tygra
+	url = https://bitbucket.org/tpdavison/tygra

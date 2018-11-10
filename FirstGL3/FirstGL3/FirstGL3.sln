@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FirstGL3", "FirstGL3\FirstGL3.vcxproj", "{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70} = {95BB7187-0E5A-444E-98C2-E765E5B75C70}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tgl", "tgl\tgl.vcxproj", "{7156367D-5490-4133-8788-6CAEA746AD48}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tygra", "tygra\tygra.vcxproj", "{95BB7187-0E5A-444E-98C2-E765E5B75C70}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7156367D-5490-4133-8788-6CAEA746AD48} = {7156367D-5490-4133-8788-6CAEA746AD48}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document Files", "Document Files", "{A81F414B-B0AD-4ACA-80CA-25A93683031D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug NVTX|x64 = Debug NVTX|x64
+		Debug NVTX|x86 = Debug NVTX|x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release NVTX|x64 = Release NVTX|x64
+		Release NVTX|x86 = Release NVTX|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}.Debug NVTX|x64.ActiveCfg = Debug NVTX|x64
+		{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}.Debug NVTX|x64.Build.0 = Debug NVTX|x64
+		{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}.Debug NVTX|x86.ActiveCfg = Debug NVTX|Win32
+		{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}.Debug NVTX|x86.Build.0 = Debug NVTX|Win32
+		{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}.Debug|x64.ActiveCfg = Debug|x64
+		{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}.Debug|x64.Build.0 = Debug|x64
+		{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}.Debug|x86.ActiveCfg = Debug|Win32
+		{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}.Debug|x86.Build.0 = Debug|Win32
+		{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}.Release NVTX|x64.ActiveCfg = Release NVTX|x64
+		{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}.Release NVTX|x64.Build.0 = Release NVTX|x64
+		{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}.Release NVTX|x86.ActiveCfg = Release NVTX|Win32
+		{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}.Release NVTX|x86.Build.0 = Release NVTX|Win32
+		{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}.Release|x64.ActiveCfg = Release|x64
+		{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}.Release|x64.Build.0 = Release|x64
+		{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}.Release|x86.ActiveCfg = Release|Win32
+		{3030D2F1-2E60-41F3-AC6A-C93B2223D5C4}.Release|x86.Build.0 = Release|Win32
+		{7156367D-5490-4133-8788-6CAEA746AD48}.Debug NVTX|x64.ActiveCfg = Debug|x64
+		{7156367D-5490-4133-8788-6CAEA746AD48}.Debug NVTX|x64.Build.0 = Debug|x64
+		{7156367D-5490-4133-8788-6CAEA746AD48}.Debug NVTX|x86.ActiveCfg = Debug|Win32
+		{7156367D-5490-4133-8788-6CAEA746AD48}.Debug NVTX|x86.Build.0 = Debug|Win32
+		{7156367D-5490-4133-8788-6CAEA746AD48}.Debug|x64.ActiveCfg = Debug|x64
+		{7156367D-5490-4133-8788-6CAEA746AD48}.Debug|x64.Build.0 = Debug|x64
+		{7156367D-5490-4133-8788-6CAEA746AD48}.Debug|x86.ActiveCfg = Debug|Win32
+		{7156367D-5490-4133-8788-6CAEA746AD48}.Debug|x86.Build.0 = Debug|Win32
+		{7156367D-5490-4133-8788-6CAEA746AD48}.Release NVTX|x64.ActiveCfg = Release|x64
+		{7156367D-5490-4133-8788-6CAEA746AD48}.Release NVTX|x64.Build.0 = Release|x64
+		{7156367D-5490-4133-8788-6CAEA746AD48}.Release NVTX|x86.ActiveCfg = Release|Win32
+		{7156367D-5490-4133-8788-6CAEA746AD48}.Release NVTX|x86.Build.0 = Release|Win32
+		{7156367D-5490-4133-8788-6CAEA746AD48}.Release|x64.ActiveCfg = Release|x64
+		{7156367D-5490-4133-8788-6CAEA746AD48}.Release|x64.Build.0 = Release|x64
+		{7156367D-5490-4133-8788-6CAEA746AD48}.Release|x86.ActiveCfg = Release|Win32
+		{7156367D-5490-4133-8788-6CAEA746AD48}.Release|x86.Build.0 = Release|Win32
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70}.Debug NVTX|x64.ActiveCfg = Debug|x64
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70}.Debug NVTX|x64.Build.0 = Debug|x64
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70}.Debug NVTX|x86.ActiveCfg = Debug|Win32
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70}.Debug NVTX|x86.Build.0 = Debug|Win32
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70}.Debug|x64.ActiveCfg = Debug|x64
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70}.Debug|x64.Build.0 = Debug|x64
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70}.Debug|x86.ActiveCfg = Debug|Win32
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70}.Debug|x86.Build.0 = Debug|Win32
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70}.Release NVTX|x64.ActiveCfg = Release|x64
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70}.Release NVTX|x64.Build.0 = Release|x64
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70}.Release NVTX|x86.ActiveCfg = Release|Win32
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70}.Release NVTX|x86.Build.0 = Release|Win32
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70}.Release|x64.ActiveCfg = Release|x64
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70}.Release|x64.Build.0 = Release|x64
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70}.Release|x86.ActiveCfg = Release|Win32
+		{95BB7187-0E5A-444E-98C2-E765E5B75C70}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51A77B09-5DC0-4AB4-AE57-FF8E151B8CCA}
+	EndGlobalSection
+EndGlobal
